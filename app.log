@@ -1,0 +1,71 @@
+2024-12-23 04:59:49,473 - INFO - Model loaded successfully
+2024-12-23 04:59:49,483 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-23 04:59:49,483 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-23 05:00:01,915 - INFO - 127.0.0.1 - - [23/Dec/2024 05:00:01] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:00:02,140 - INFO - Received prediction request: {'age': 24, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 1, 'restecg': 1, 'thalach': 60, 'exang': 1, 'oldpeak': 1, 'slope': 1, 'ca': 1, 'thal': 1}
+2024-12-23 05:00:02,144 - INFO - 127.0.0.1 - - [23/Dec/2024 05:00:02] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:09:28,469 - INFO - 127.0.0.1 - - [23/Dec/2024 05:09:28] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:09:28,732 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 220, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:09:28,734 - INFO - 127.0.0.1 - - [23/Dec/2024 05:09:28] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:02,409 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:02] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:02,673 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 220, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:11:02,674 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:02] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:09,932 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:09] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:10,240 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 220, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:11:10,243 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:10] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:13,187 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 220, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:11:13,189 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:13] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:14,080 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 220, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:11:14,083 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:14] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:26,817 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:26] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:11:27,122 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 60, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:11:27,125 - INFO - 127.0.0.1 - - [23/Dec/2024 05:11:27] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:04,439 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:04] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:04,748 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 60, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:12:04,749 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:04] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:07,572 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 220, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:12:07,574 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:07] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:12,877 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:12] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:13,139 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 150, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:12:13,141 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:13] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:17,380 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 120, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:12:17,382 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:17] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:21,304 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:21] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:12:21,567 - INFO - Received prediction request: {'age': 25, 'sex': 0, 'cp': 1, 'trestbps': 200, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 80, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 1}
+2024-12-23 05:12:21,569 - INFO - 127.0.0.1 - - [23/Dec/2024 05:12:21] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:24,094 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:24] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:24,340 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 0, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:24,342 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:24] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:31,608 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:31] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:31,927 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 3, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 0, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:31,930 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:31] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:36,229 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:36,230 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:36] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:37,301 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:37] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:37,563 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:37,565 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:37] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:40,494 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 0, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:40,496 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:40] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:47,692 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:47] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:47,955 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 1, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:47,957 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:47] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:50,517 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:50,519 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:50] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:54,634 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:54] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:54,897 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 1, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:54,900 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:54] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:57,471 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:57,473 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:57] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:13:58,942 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:13:58,945 - INFO - 127.0.0.1 - - [23/Dec/2024 05:13:58] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:14:01,850 - INFO - 127.0.0.1 - - [23/Dec/2024 05:14:01] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:14:02,157 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 2, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:14:02,159 - INFO - 127.0.0.1 - - [23/Dec/2024 05:14:02] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:14:04,566 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 5, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:14:04,569 - INFO - 127.0.0.1 - - [23/Dec/2024 05:14:04] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:14:05,932 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 5, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:14:05,935 - INFO - 127.0.0.1 - - [23/Dec/2024 05:14:05] "POST /api/predict HTTP/1.1" 200 -
+2024-12-23 05:14:09,618 - INFO - 127.0.0.1 - - [23/Dec/2024 05:14:09] "OPTIONS /api/predict HTTP/1.1" 200 -
+2024-12-23 05:14:09,926 - INFO - Received prediction request: {'age': 50, 'sex': 0, 'cp': 0, 'trestbps': 90, 'chol': 120, 'fbs': 0, 'restecg': 0, 'thalach': 60, 'exang': 1, 'oldpeak': 0, 'slope': 0, 'ca': 0, 'thal': 0}
+2024-12-23 05:14:09,928 - INFO - 127.0.0.1 - - [23/Dec/2024 05:14:09] "POST /api/predict HTTP/1.1" 200 -
